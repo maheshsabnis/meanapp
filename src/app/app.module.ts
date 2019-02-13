@@ -7,7 +7,7 @@ import { ProductService } from "./services/app.products.service";
 import { ProductServiceComponent } from "./productservicecomponent/app.productservice.component";
 
 @NgModule({
-  declarations: [AppComponent, ProductServiceComponent],
+  declarations: [ProductServiceComponent],
   imports: [BrowserModule, FormsModule, HttpModule],
   providers: [ProductService],
   bootstrap: [ProductServiceComponent]
