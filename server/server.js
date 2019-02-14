@@ -10,7 +10,7 @@ instance.use(router);
 instance.use(bodyParser.urlencoded({ extended: false }));
 instance.use(bodyParser.json());
 instance.use(cors());
-mongoose.connect("mongodb://localhost/ProductsAppDb", {
+mongoose.connect("mongodb://localhost:27017/ProductsAppDb", {
   useNewUrlParser: true
 });
 var dbConnect = mongoose.connection;
