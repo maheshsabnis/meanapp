@@ -7,7 +7,7 @@ import { Product } from "./../productservicecomponent/app.product.model";
 export class ProductService {
   url: string;
   constructor(private http: Http) {
-    this.url = "http://0.0.0.0:4070";
+    this.url = "http://localhost:4070";
   }
   getData(): Observable<Response> {
     let resp: Observable<Response>;
